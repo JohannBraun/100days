@@ -23,3 +23,7 @@ def hello_world():
 @app.route('/test/')
 def test():
     return 'pssst, hier wird getestet!'
+
+if __name__ == '__main__':
+    app.run(debug=True)
+    
